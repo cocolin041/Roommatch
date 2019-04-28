@@ -1,0 +1,20 @@
+{
+  "name": "RoomFinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node demo_db_connection.js",
+    "heroku-postbuild": "cd dashboard && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
